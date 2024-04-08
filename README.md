@@ -79,7 +79,7 @@
 5. manifest.yml 수정
 - 기존 applicaton 설정
 > 샘플
->><pre>
+<pre>
 <code>---
 applications:
 - name: helpme
