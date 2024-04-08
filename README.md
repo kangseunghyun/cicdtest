@@ -48,14 +48,17 @@
 
 4-2 Stages
 ![image](https://github.com/kangseunghyun/cicdtest/assets/21374560/9c400bbd-b0c0-4c85-a03a-da326a9ed370)
- - Configuraton Mode : Job Editor 선택
-   * Job Editor는 web화면에서 빌드, Deploy 설정
-   * Source Repository: 소스내에 .pipeline/config.yml에 설정한 정보로 빌드, Deploy 진행
+ * Configuraton Mode : Job Editor 선택
+ ** Job Editor는 web화면에서 빌드, Deploy 설정
+ ** Source Repository: 소스내에 .pipeline/config.yml에 설정한 정보로 빌드, Deploy 진행
                         Jobs에서 기존에 등록된 정보를 볼수 있음.
                         ![image](https://github.com/kangseunghyun/cicdtest/assets/21374560/46aefeaf-3cfd-4a7f-9dfb-9351be05796e)
-2. manifest.yml 수정
+ * Build
+ **  
+     
+5. manifest.yml 수정
   
-3. 
+
 
 
    
