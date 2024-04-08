@@ -31,8 +31,8 @@
 - 등록한 github 등록
 - webhook evenct receiver에 2-1-1에서 등록한 whathook 선택
 4. jobs 등록
-4-1 기본 정보
   
+4-1 기본 정보  
 ![image](https://github.com/kangseunghyun/cicdtest/assets/21374560/a470bb77-fd1a-4d77-9f19-2791b16c7c71)
   - 3에서 등록한 repository 등록
   - Pipeline은 Cloud Foundry environment 선택
