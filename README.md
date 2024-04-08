@@ -13,9 +13,9 @@
 ![image](https://github.com/kangseunghyun/cicdtest/assets/21374560/c5144478-c352-4f20-a3e6-db90456c9c4f)
 
 > 탭별 설명
->> Jobs : 빌드 배포를 수행할 job 설정
->> Repositories : git 등 저장소 설정
->> Credentials : git, btp등 인증 설정 > Jobs에서 연결해서 사용함. 
+>> * Jobs : 빌드 배포를 수행할 job 설정
+>> * Repositories : git 등 저장소 설정
+>> * Credentials : git, btp등 인증 설정 > Jobs에서 연결해서 사용함. 
 
 2-1. Credentials 설정
 ![image](https://github.com/kangseunghyun/cicdtest/assets/21374560/514a6fa8-bb2e-4a64-8fb2-58065617c7d3)
