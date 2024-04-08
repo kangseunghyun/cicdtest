@@ -79,6 +79,7 @@
 5. manifest.yml 수정
 - 기존 applicaton 설정
 - Java를 사용, 버전은 11이상, 메모리는 2G 사용, helpme instance에 배포(없을 시 자동 생성)
+- jekins을 통해서 pod 생성 후 배포
 > 샘플
 <pre>
 <code>---
