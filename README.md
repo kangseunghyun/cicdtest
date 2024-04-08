@@ -56,11 +56,43 @@
                         Jobs에서 기존에 등록된 정보를 볼수 있음.
 ![image](https://github.com/kangseunghyun/cicdtest/assets/21374560/46aefeaf-3cfd-4a7f-9dfb-9351be05796e)
    
- * Build
- **  
+- Build
+  * Build Tool 은 maven, mta, npm제공
+  * Maven Static code Checks, Lint Cheack 추가 소스 유효성 체크 시 설정
+  * Additional Command : 전/후 추가 커맨트 필요시 
+  * Additional Credentials : 인증을 위한 추가 정보 필요 시 
+  * Additional Variables : 추가 파라미터 설정 시
+ 
+- release(Deploy)
+  
+  ![image](https://github.com/kangseunghyun/cicdtest/assets/21374560/f9bc725c-a3cf-4cb3-9299-867f9351e6ee)
+
+  * Deploy to cloud Foundry Space ON
+  * Application Name : source > manifext file에 설정한 이름
+  * Api Endpoint : trial 계정 참조
+  * Org Name : trial 계정 참조
+  * Space : 1에서 생성한 저장소(dev로 설정)
+  * Deploy type : standard
+  * Credentials : cf 접근을 위한 인증(cf로 설정된 인증 정보 연결)
+  * Cloud Transport management : 다른 저장 공간과 연동해서 배포 지원(파악 예정)
      
 5. manifest.yml 수정
-  
+- 기존 applicaton 설정
+> 샘플
+>><pre>
+<code>---
+applications:
+- name: helpme
+  memory: 2G
+  buildpack: sap_java_buildpack
+  path: target/objectstore-sample-1.1.1.jar
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+    JBP_CONFIG_SAP_MACHINE_JRE: '{ jre: { version: "11.+" } }'
+  services:
+    helpme
+</code>
+</pre>
 
 
 
