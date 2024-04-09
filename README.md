@@ -24,7 +24,7 @@
 
 2-1-1 webhook 인증
   - github > settings > Webhooks > add webhhok
-  - 생성한 api url 등록
+  - btp > ci > Repositories > Webhook Event Receiver > Webhook Data > 내에 생성된 api url 등록
   - application/json 선택
   - 이전에 생성한 key 등록
 
